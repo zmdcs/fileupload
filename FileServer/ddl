@@ -1,0 +1,8 @@
+create database file;
+use file;
+create table detail(
+     id int primary key auto_increment,
+     hashcode int ,
+     name varchar(40),
+     time date
+);
